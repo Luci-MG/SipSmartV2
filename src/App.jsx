@@ -100,7 +100,7 @@ function Sankey() {
             <p className='card-text leftcard'> We Have Some Options that are<br></br> healthy comparitively
               the right side sankey diagram shows beverages that are less in calories
             </p>
-            <img className='content-img-left' src="../public/arrow.png" alt="Sankey diagram"></img>
+            <img className='content-img-left' src="../SipSmartV2/arrow.png" alt="Sankey diagram"></img>
           </div>
         </div>
         {/* <div className='row'>
@@ -291,7 +291,7 @@ function Comparison() {
                   </div>
                   <div className='col-md-3'>
                     <div className="form-group">
-                    <img className='content-img' src="../public/legends.png" alt="cup diagram"></img>
+                    <img className='content-img' src="../SipSmartV2/legends.png" alt="cup diagram"></img>
                     </div>
                   </div>
                 </div>
@@ -312,7 +312,7 @@ function Comparison() {
                 </div>
                 <div className='row'>
                   <div className='col-md-3'>
-                    <img className='content-img' src="../public/starbuckscup.png" alt="cup diagram"></img>
+                    <img className='content-img' src="../SipSmartV2/starbuckscup.png" alt="cup diagram"></img>
                   </div>
                   <div className='col-md-3 drink'>
                     <CustomizeDrinkMake />
@@ -321,35 +321,35 @@ function Comparison() {
                     <div className='row'>
                       {selectedBeverageCat !== '' && [...Array(Math.ceil(beverageMap.get(selectedBeverageCat).get(selectedBeverage).get(selectedBeverageSize).get(selectedMilkType)['Calories']/20))].map((_, index) => (
                         <div className='col-md-2'>
-                          <img className='meldoy-img' src="../public/melody.png" alt="cup diagram"></img>
+                          <img className='meldoy-img' src="../SipSmartV2/melody.png" alt="cup diagram"></img>
                         </div>
                       ))}
                     </div>
                     <div className='row'>
                     {selectedBeverageCat !== '' && [...Array(Math.ceil(beverageMap.get(selectedBeverageCat).get(selectedBeverage).get(selectedBeverageSize).get(selectedMilkType)['Sugars (g)']/5))].map((_, index) => (
                         <div className='col-md-2'>
-                          <img className='spoon-img' src="../public/sugarspoon.png" alt="cup diagram"></img>
+                          <img className='spoon-img' src="../SipSmartV2/sugarspoon.png" alt="cup diagram"></img>
                         </div>
                       ))}
                     </div>
                     <div className='row'>
                     {selectedBeverageCat !== '' && [...Array(Math.ceil(beverageMap.get(selectedBeverageCat).get(selectedBeverage).get(selectedBeverageSize).get(selectedMilkType)['Total Fat (g)']/1))].map((_, index) => (
                         <div className='col-md-2'>
-                          <img className='oil-img' src="../public/oilpng2.png" alt="cup diagram"></img>
+                          <img className='oil-img' src="../SipSmartV2/oilpng2.png" alt="cup diagram"></img>
                         </div>
                       ))}
                     </div>
                     <div className='row'>
                     {selectedBeverageCat !== '' && [...Array(Math.ceil(beverageMap.get(selectedBeverageCat).get(selectedBeverage).get(selectedBeverageSize).get(selectedMilkType)['Protein (g)']/3))].map((_, index) => (
                         <div className='col-md-2'>
-                          <img className='tofu-img' src="../public/tofuc.png" alt="cup diagram"></img>
+                          <img className='tofu-img' src="../SipSmartV2/tofuc.png" alt="cup diagram"></img>
                         </div>
                       ))}
                     </div>
                     <div className='row'>
                     {selectedBeverageCat !== '' && [...Array(Math.ceil(beverageMap.get(selectedBeverageCat).get(selectedBeverage).get(selectedBeverageSize).get(selectedMilkType)['Dietary Fibre (g)']/1))].map((_, index) => (
                         <div className='col-md-2'>
-                          <img className='wheat-img' src="../public/wheat1.png" alt="cup diagram"></img>
+                          <img className='wheat-img' src="../SipSmartV2/wheat1.png" alt="cup diagram"></img>
                         </div>
                       ))}
                     </div>
@@ -359,7 +359,7 @@ function Comparison() {
                     <div className='row'>
                       {selectedBeverageCat !== '' && [...Array(Math.ceil(beverageMap.get(selectedBeverageCat).get(selectedBeverage).get(selectedBeverageSize).get(selectedMilkType)['Calories']/4))].map((_, index) => (
                         <div className='col-md-2'>
-                          <img className='staw-img' src="../public/staw2.png" alt="cup diagram"></img>
+                          <img className='staw-img' src="../SipSmartV2/staw2.png" alt="cup diagram"></img>
                         </div>
                       ))}
                     </div>
